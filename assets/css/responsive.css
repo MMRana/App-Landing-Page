@@ -1,0 +1,143 @@
+/* XXL-Device */
+@media (max-width: 1030px) {
+  /* :: 8- FEATURES CSS */
+  .margin-top-up{
+    margin-top: -25rem;
+  }
+
+} 
+
+/* XL-Device */
+@media (max-width: 991px) {
+   /* Common CSS */
+   h1,h2{
+        font-size: 2.5rem;
+   }
+   .ipad-px-30{
+        padding: 0 1.875rem;
+   }
+   /* HEADER CSS */
+
+   .navbar{
+     padding-top: 0.625rem;
+     padding-bottom: 0.75rem;
+   }
+   .navbar-brand{
+     width: 50%;
+   }
+   .navbar-brand img{
+     max-width: 35%;
+   }
+   .navbar-toggle{
+     padding-right: 0;
+   }
+   .navbar-toggle:focus{
+     box-shadow: none;
+   }
+   .navbar-toggle-icon{
+     color: var(--text-white);
+     width: 1em;
+     height: 1em;
+   }
+   .navar-sticky-on .navbar-toggle-icon{
+     color: var(--bg-black);
+   }
+   .navbar .navbar-nav{
+     background: var(--bg-white);
+     border-radius: 0.188rem;
+     text-align: center;
+   }
+   .navbar .navbar-nav .nav-link{
+     padding: 0.625rem 1.5rem;
+     color: var(--text-light-gray);
+   }
+
+   /* HOME CSS */
+   #home{
+     padding-top: 7rem;
+   }
+   #home .row{
+     flex-direction: column-reverse;
+   }
+   #home .home-text{
+     text-align: center;
+     margin-bottom: 2rem;
+   }
+   #home .home-download-btn{
+     justify-content: center;
+   }
+   #home-image{
+     text-align: center;
+   }
+   #home-image img{
+     max-width: 60%;
+   }
+   /* Features CSS */
+
+   /* FRICING CSS */
+   .single-price{
+    margin-bottom: 2.5rem;
+   }
+   
+
+}
+
+/* MD-Device */
+@media (max-width: 767px) {
+     /* Common CSS */
+   .mobile-px-20{
+        padding: 0 1.25rem;
+   }
+   /* HOME CSS */
+   #home{
+    padding-top: 5rem;
+  }
+  #home .home-text h2{
+    font-size: 2.438rem;
+    line-height: 3.938rem;
+  }
+  .home-image{
+    text-align: center;
+    transform: rotate(0deg);
+ }
+   /*  COUNTER CSS, */
+    .single-counter:nth-child(2)::after{
+      display: block;
+    }
+
+   /* Features CSS */
+   .mobile-px-20{
+        padding: 0 1.25rem;
+   }
+   .margin-top-up{
+        margin-top: 0rem;
+   }
+   .single-feature{
+    margin-top: 1.875rem;
+ }
+   .feature-middle{
+    margin-top: 0rem;
+   }
+   .feature-img img{
+    max-width: 90%;
+  }
+     
+}
+
+/* MS-Device */
+@media (max-width: 330px) {
+       /* HOME CSS */
+     #home .home-download-btn .btn{
+          margin: 0;
+        }
+        /* Features CSS */
+        .feature-img img{
+          max-width: 70%;
+        }
+}
+
+
+
+
+
+
